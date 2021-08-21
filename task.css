@@ -1,0 +1,204 @@
+/* --------------------------------------------Links--------------------------------------------------------  */
+
+@font-face {
+  font-family: "AvertaStd-Semibold";
+  src: url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.eot");
+  src: url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/aef2da2daa6e15be44ff1a2706cc61a1.svg#AvertaStd-Semibold")
+      format("svg");
+}
+@font-face {
+  font-family: "AvertaStd-Regular";
+  src: url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.eot");
+  src: url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/19b8f54eb1f074fb01efb1c4f02e9623.svg#AvertaStd-Regular")
+      format("svg");
+}
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+ 
+}
+
+
+.allinone{
+  font-size: 1vw;
+}
+
+/* --------------------------------------------Nav-Bar--------------------------------------------------------  */
+
+.allnav{
+height: 4.5vw;
+box-shadow: 0px 3px 6px #00000029;
+display: flex;
+padding: 2% 4%;
+justify-content: space-between;
+align-items: center;
+}
+.allbottom{
+  background-color:#AED5E8;
+   margin-top:1em;
+}
+/*------LOGO------ */
+
+.logo{
+  height: 4.12vw;
+  width: 8VW;
+}
+/*----Nav-Components---- */
+.liclass1{
+  list-style: none;
+
+  padding: 1em 2em;
+  font-size: 1.1vw;
+}
+.allul{
+display: flex;
+
+}
+.aclass1{
+  color:#6F8B99;
+  text-decoration: none;
+  font-family: "AvertaStd-Regular";
+  font-weight: -50;
+}
+
+.aclass1:hover{
+ color:  rgba(0,0,0,.8);
+
+}
+
+/*----------------------------------------Container-1st-----------------------------------------------------*/
+
+.sideray
+{  display: flex;
+  justify-content:space-between;
+  border-bottom-right-radius:35em 10em;
+padding-top:10.5em ;
+padding-bottom: 5.98em;
+background-color: white;
+}
+/*-----Man-Image----*/
+.man{
+  width: 10vw;
+  height: 15vw;
+  margin-top: 11em;
+  transform: translateX(72%);
+}
+/*----Container-Content-----*/
+.h3pall{
+  
+  text-align: center;
+  margin-top: -6.5em;
+  width: 20em;
+  z-index: 1;
+  transform: translateX(29.5%);
+
+}
+.h3class{
+  font-family: "AvertaStd-Regular";
+  font-size: 2.9em;
+  font-weight: 100;
+letter-spacing: 0px;
+color: #01818C;
+opacity: 1;
+padding-bottom: 1em;
+}
+.pclass{
+  font-family: "AvertaStd-Regular";
+  font-size: 1.6vw;
+  letter-spacing: 0.4px;
+color: #3B3A3A;
+opacity: 1;
+}
+
+/*----Buttons----*/
+
+.bothallbutton{
+width: 20em;
+transform: translateX(68%);
+padding-top:7em ;
+z-index: 1;
+}
+.bothbutton{
+ 
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 4px 6px 8px #00000029;
+border-radius: 5px;
+width: 16vw;
+padding:0.7em;
+opacity: 1;
+border: none;
+font-family: "AvertaStd-Regular";
+font-size: 1em;
+letter-spacing: 0px;
+color: #02808B;
+z-index: -1;
+}
+
+/*----Elephant-Image-----*/
+.eleph{
+  height: 31.9vw;
+  width: 37vw;
+  transform: translateX(7.4%);
+margin-top: -4.87em;
+}
+
+.hambur{
+  display: none;
+  float: right;
+}
+
+
+/* ------Media Queries for Laptop------ */
+
+@media(min-width:767px) and (max-width:1024px){
+
+
+}
+  /*------Media Queries for Tablets------*/
+
+@media(min-width:425px) and (max-width:768px){
+ 
+}
+  
+/*------Media Queries for Mobile------*/
+@media (max-width: 426px){
+  .allnav{
+    justify-content: center;
+    display: block;
+    height: fit-content;
+
+    }
+    .allbottom{
+       margin-top:2em;
+    }
+  .allul{
+    display: block;
+    text-align: center;
+  }
+  .hambur{
+    display: block;
+  font-size: 5em;
+  }
+  .navbar-linksactive{
+    display: none;
+  }
+
+}
